@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Dashboard SolarAGire – versão organizada em tabs (Fase 1)
+Dashboard solAGire – versão organizada em tabs (Fase 1)
 """
 
 import streamlit as st
@@ -57,8 +57,8 @@ ultimo = df.iloc[-1]
 # ================================
 # Layout principal
 # ================================
-st.set_page_config(page_title="Plataforma SolarAGire", layout="wide")
-#st.title("☀️ Plataforma SolarAGire")
+st.set_page_config(page_title="Plataforma solAGire", layout="wide")
+#st.title("☀️ Plataforma solAGire")
 #st.markdown("Dashboard para monitorização do sistema agrovoltaico (dados simulados).")
 #agora = dt.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 #st.markdown(f"🕒 **{agora}** | 📍 **{LOCALIZACAO}** (Lat: {LATITUDE}, Lon: {LONGITUDE}, Alt: {ALTITUDE}m)")
@@ -160,3 +160,4 @@ with tab5:
             st.warning(a)
     else:
         st.success("✅ Sistema operacional sem alertas.")
+
