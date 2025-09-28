@@ -67,7 +67,7 @@ st.set_page_config(page_title="Plataforma solAGire", layout="wide")
 # Criar header com hora em tempo real
 col_top1, col_top2, col_top3 = st.columns([6, 2, 2])
 with col_top1:
-    st.title("Plataforma SolarAGire")
+    st.title("Plataforma solAGire")
     st.markdown("Dashboard para monitorização do sistema agrovoltaico (dados simulados).")
 with col_top2:
     agora = dt.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
@@ -160,4 +160,5 @@ with tab5:
             st.warning(a)
     else:
         st.success("✅ Sistema operacional sem alertas.")
+
 
